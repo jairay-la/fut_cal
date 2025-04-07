@@ -44,8 +44,7 @@ export default function Home() {
   return (
     <main className="min-h-screen p-8">
       <div className="max-w-2xl mx-auto space-y-6">
-        <h1 className="text-3xl font-bold">Futures Position Calculator</h1>
-        
+        {/* Remove the title by deleting this line */}
         <div className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">Total Equity</label>
@@ -108,7 +107,7 @@ export default function Home() {
         </div>
 
         {result && (
-          <div className="mt-8 p-4 border rounded bg-gray-50">
+          <div className="mt-8 p-4 border rounded bg-black text-white">
             <h2 className="text-xl font-semibold mb-4">Risk Calculation Results</h2>
             <div className="space-y-2">
               <p>Total Equity: ${result.totalEquity.toLocaleString()}</p>
