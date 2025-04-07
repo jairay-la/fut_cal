@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/fut_cal',
 }
 
 module.exports = nextConfig
